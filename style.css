@@ -1,0 +1,67 @@
+#mainContainer{
+    
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+#todoContainer{
+    
+    width: 50%;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 100px;
+    
+    
+}
+
+#topContainer{
+    background-color: #0a435e;
+    border: 10px solid #a2d2de;
+    height: 40px;
+    padding-top: 20px;
+}
+
+#listContainer{
+    background-color: #0a435e;
+    border: 10px solid #a2d2de;
+    min-height: 100px;
+    color: white;
+}
+
+#listTable{
+    width: 100%;
+    
+}
+
+#listTable th{
+    background-color:lue;
+}
+
+#task{
+    width: 55%;
+}
+
+
+.statusNotStarted{
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.statusPending{
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.statusCompleted{
+    background-color: limegreen;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainContainer">
+        <div id="todoContainer">
+            <div id="topContainer">
+                <form style="display: inline;">
+                    <input type="text" id="taskNameInput" placeholder="Enter the task" required>
+                    <select id="taskStatusInput" required>
+                        <option value="">Select the status</option>
+                        <option value="1" id="notStarted">Not Started</option>
+                        <option value="2" id="pending">Pending</option>
+                        <option value="3" id="complete">Complete</option>
+                    </select>
+                </form>
+                <button id="addButton">Add</button>
+            </div>
+            <div id="listContainer">
+                <table id="listTable">
+                    <thead>
+                        <th id="task">Task</th>
+                        <th id="status">Status</th>
+                    </thead>
+                    <tbody id="tableBody">
+                        
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
